@@ -1,7 +1,9 @@
+#app.rb
+
 require 'sinatra'
 
 class MyWebApp < Sinatra::Base
-	get '/' do
-		send_file "index.html"
-	end
+  get "/" do
+    "Project 1 created by Jake"
+  end
 end
